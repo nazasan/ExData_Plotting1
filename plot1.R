@@ -22,6 +22,6 @@ plot1 <- function() {
    ys <- c(0, 200, 400, 600, 800, 1000, 1200)       # sequence for ticks and labels
    axis(2, at = ys,labels = ys)
 
-   dev.copy(png,file="plot1.png")
+   dev.copy(png,file="plot1.png",width = 480, height = 480)
    dev.off()
 }
