@@ -12,7 +12,7 @@ plot1 <- function() {
    ## plot 1
    png("plot1.png", width = 480, height = 480)     
    hist(data_filter$Global_active_power,
-        col = "red", xlab = "Global Active Power (kilowatts)",main="")##, axes = FALSE, yaxt = "n")
+        col = "red", xlab = "Global Active Power (kilowatts)",main="")
    title(main = "Global Active Power") ## Add a title
 
    dev.off()
